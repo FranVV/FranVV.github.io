@@ -1,0 +1,292 @@
+/* ocultar controles de input date 
+input[type="date"]::-webkit-inner-spin-button,
+::-webkit-calendar-picker-indicator,
+::-webkit-datetime-edit{
+display: block;
+}
+
+
+/* mostrar el calendario al hacer click 
+input[type="date"]::-webkit-calendar-picker-indicator {
+display: block;
+background: transparent;
+bottom: 0;
+color: transparent;
+cursor: pointer;
+height: auto;
+left: 0;
+position: absolute;
+right: 0;
+top: 0;
+width: auto;
+}
+table thead tr th{
+    width: auto !important;  
+    table-layout: auto !important;
+}
+
+/* mostrar la fecha seleccionada al estar en hover 
+input[type="date"]:hover::-webkit-datetime-edit {
+display: block;
+}*/
+th {
+    white-space: nowrap;
+}
+.table thead th {
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 2px solid #dee2e6;
+}
+.datosexpediente{
+    background-color: rgb(255, 204, 0);
+}
+
+.docs{
+    background-color: rgb(141, 180, 226);
+}
+.economico{
+    background-color: rgb(250, 191, 143);
+}
+.comentario{
+    background-color:red;
+}
+.bg-light {
+    background-color: #E5E5E5;
+}
+.navbar>.container-fluid{
+    justify-content: unset;
+}
+.push {
+    margin-left: auto;
+}
+/*.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+     color: rgba(0,0,0,.5); 
+}*/
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.flex-container.wrap{
+    display: flex; 
+    /*height: 10em;*/
+    flex-wrap: wrap; 
+    align-content: stretch;
+ }
+ .flex-containerhorario.wrap{
+    display: flex; 
+    /*height: 10em;*/
+    flex-wrap: wrap; 
+    align-content: stretch;
+ }
+ .anadir{
+     margin-left: auto;
+     margin-right: 25%;
+ }
+ .flex-containerfecha.wrap{
+    display: flex; 
+    /*height: 10em;*/
+    flex-wrap: wrap; 
+    align-content: stretch;
+    
+ }
+ 
+ .sel_fec_clo{
+    width: 90px;
+    /*margin-left: 2em;*/
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+ .sel_linea{
+    width: 50px;
+    /*margin-left: 13%;*/
+    margin-top: 2em;
+}
+
+ .sel_fec{
+    width: 120px;
+    margin-left: 2em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+}
+ .tablepla{
+     width: 280px;
+     margin: 1%;
+ }
+ th,td {
+    text-align: center;
+  }
+
+.row{
+    --bs-gutter-x: 0;
+}
+.container{
+    margin-top: 1em!important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0;
+    padding-left: 0;
+    
+}
+.bg-warning {
+    background-color: #f8f9fa!important;
+}
+body {
+    background-color:#E5E5E5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  #login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+.nav-item{
+    font-weight: bold;
+} 
+.nav-link{
+    color: rgb(0, 0, 0)!important;
+}
+#calendar { font-family:Arial; font-size:12px; }
+#calendar caption {text-align:left; padding:5px 10px; background-color:#003366; color:#fff; font-weight:bold; }
+#calendar th { background-color:#006699; color:#fff; width:40px; }
+#calendar td { text-align:right; padding:2px 5px; background-color:silver; }
+#calendar .hoy { background-color:red; }
+.rojo { color:#FF0000; }
+.amarillo { color:#F7FE2E; }
+.verde { color:#01DF01 ;}
+@media screen and (min-width : 149px) and (max-width : 650px) {
+    .orden{
+        order:-1;
+        margin-right: 200px;
+    }
+    .orden2{
+        margin-right: 200px;
+    }
+    .anadir{
+        margin-right: 3%;
+    }
+
+}
+.navbar{
+    padding-top: 0rem;
+    padding-bottom: 0rem;  
+}
+
+.navbar-inverse {
+    background-color: #e5e8eb
+  }
+  
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+background-color: #e5e8eb
+  }
+  
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+background-color: #e5e5e5
+}
+
+.dropdown-menu {
+background-color: #006B00
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+background-color: #002200
+}
+
+.navbar-inverse {
+background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-image: none;
+}
+
+.navbar-inverse {
+border-color: #003300
+}
+
+.navbar-inverse .navbar-brand {
+color: #FFFFFF
+}
+
+.navbar-inverse .navbar-brand:hover {
+color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+color: #FFCC00
+}
+
+.dropdown-menu>li>a {
+color: #FFFFFF
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+border-bottom-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+border-bottom-color: #FFFFFF
+}
+
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-menu {
+display: none;
+position: absolute;
+z-index: 1;
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
